@@ -1,0 +1,121 @@
+/* Start Variables*/
+
+/* End Variables */
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;    
+}
+
+.container {
+    margin-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/OIP.jpeg);
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/c1cd4d14460124040e6ea184cb1e83ae.jpg);
+    background-size:cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    gap: 50px;
+}
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+.container .form {
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    padding: 25px;
+    left: 150px;
+} 
+.container .form input:not(:last-child) {
+    display: block;
+    width: 90%;
+    height: 40px;
+    padding: 20px;
+    border: 2px solid #8989;
+    border-radius:9px;
+}
+input:last-child {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    margin: 15px;
+    color: white;
+    background-color: #ff3b3b;
+    border-radius: 15px;
+}
+h2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+.with-us p {
+    color: #666;
+    font-size: 10px;
+}
+.form i {
+    position: relative;
+    bottom: 32px;
+    left: 5px;
+    font-size: 14px;
+    color: #666;
+}
+.content {
+    width: 500px;
+    height: 400px;
+    margin-top: 100px;
+}
+.servace {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 10px; 
+    margin-top: 30px;
+    color:white;
+
+}
+.content h1 {
+    color: white;
+}
+.content p {
+    font-size: 12px;
+    color: white;
+} 
+.content .fear div {
+    font-size: 40px;
+    font-weight: 500;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ff3b3b;
+    border: 2px solid #df9090;
+    display: grid;
+    justify-content: center;
+    
+}  
+
+
